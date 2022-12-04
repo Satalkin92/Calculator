@@ -7,7 +7,8 @@ public class Main {
         System.out.println("Введите выражение:");
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
-        Calc.calc(input);
         scanner.close();
+        Calc.calc(input);
+
     }
 }
