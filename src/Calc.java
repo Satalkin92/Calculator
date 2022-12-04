@@ -1,4 +1,4 @@
-import java.io.IOException;
+import java.io.*;
 public class Calc {
     public static void calc(String input) throws IOException {
         String[] str = input.split(" ");
